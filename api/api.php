@@ -1,6 +1,7 @@
 <?php
 include_once('./simple_html_dom.php');
-$html = file_get_html("https://livescore.football365.com/england-fa-cup-qualification-chester-fc-vs-oldham-athletic/19-10-2022/2276051/overview");
+$gameUrl = "https://livescore.football365.com/england-premier-league-brentford-vs-chelsea/20-10-2022/2130017/overview";
+$html = file_get_html($gameUrl);
 
 // echo $html;
 // ftb_details_header_status
