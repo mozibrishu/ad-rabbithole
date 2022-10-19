@@ -1,6 +1,6 @@
 <?php
 include_once('./simple_html_dom.php');
-$gameUrl = "https://livescore.football365.com/england-premier-league-brentford-vs-chelsea/20-10-2022/2130017/overview";
+$gameUrl = "https://livescore.football365.com/italy-coppa-italia-primavera-benevento-u19-vs-reggina-u19/19-10-2022/2276240/overview";
 $html = file_get_html($gameUrl);
 
 // echo $html;
