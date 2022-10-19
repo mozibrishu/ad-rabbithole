@@ -25,14 +25,19 @@ body {
   top: 0px;
   left: 0px;
 }
+
 .pp_slide_1 .pp_teamOneLogo {
   top: 75px;
   left: 65px;
+  width: 61px;
+  height: 60px;
 }
 
 .pp_slide_1 .pp_teamTwoLogo {
   top: 75px;
   left: 170px;
+  width: 61px;
+  height: 60px;
 }
 
 .pp_slide_1 .pp_downBtn {
@@ -52,6 +57,7 @@ body {
   opacity: 1;
   height: 53px;
   width: 85px;
+  color: white;
 }
 
 .pp_slide_1 .pp_teamTwoScore {
@@ -64,6 +70,7 @@ body {
   font-family: sans-serif;
   left: 162px;
   height: 53px;
+  color: white;
   width: 85px;
 }
 

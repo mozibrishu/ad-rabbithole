@@ -3,7 +3,12 @@ fetch('http://localhost/ad-rabbithole/api/data.json')
 .then(data => dataOperation(data))
 
 function dataOperation(data) {
-  scoreOperation(data.score);
+  if(data.gameStatus == 'NSY'){
+    document.querySelector('span.pp_teamOneScore.pp_absolute').innerText = '--';
+    document.querySelector('span.pp_teamTwoScore.pp_absolute').innerText = '--';
+  }else{
+    scoreOperation(data.score)
+  }
   logoOperation(data.teamOne.trim(),data.teamTwo.trim());
 }
 
